@@ -116,7 +116,7 @@ resource "google_compute_firewall" "asia-allow-rdp" {
 
   allow {
     protocol = "tcp"
-    ports    = ["3389"]
+    ports    = 3389
   }
 
   # direction = "EGRESS"
